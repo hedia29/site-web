@@ -1,0 +1,127 @@
+label{
+	display: inline-block;
+	width: 100px;
+}
+.button{
+
+	position: absolute;
+	text-align: left;
+	
+	
+}
+body {
+  margin: 0;
+}
+
+.page {
+    width: 100%;
+    height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.figure{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navigation  ul{
+    min-width: 500px;
+    float: left;
+    left: 50%;
+    margin-left: -60px;
+    position: relative;
+
+}
+
+.navigation li {
+    display: inline;
+    margin-right: 1px;
+    color: #fff;
+    padding: 20px 20px;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    left: -50%;
+}
+
+.navigation li a {
+    color: black;
+    font-family: 'Biryani', sans-serif;
+    line-height: 1em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.navigation li a:hover, .navigation li a:active {
+    color: #58a0d3;
+}
+.figure{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+figcaption{
+    font-family: 'Biryani', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.cs{
+  display: inline;
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  font-family: 'Biryani', sans-serif;
+}
+.offre{
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  font-family: 'Biryani', sans-serif;
+}
+
+footer{
+  line-height: 10px;
+  margin-top:5px;
+  margin-bottom:10px;
+  padding:50px;
+  background-color:#45567b;
+
+  display: flex;
+}
+
+
+footer .infos-container {
+  width: 30%;
+  
+  text-align: right;
+  padding: 10px;
+  color: white;
+}
+footer .logos-container {
+  width: 50%;
+  text-align: center;
+  padding-top: 50px;
+  
+}
+footer .map-container {
+  width: 40%;
+ 
+}
+
+
+footer a {
+  color: white;
+}
+img.displayed1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+     }
+ .rs a
+{
+float:right;
+padding:5px;
+
+}
