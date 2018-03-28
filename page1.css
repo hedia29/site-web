@@ -1,0 +1,235 @@
+body {
+  margin: 0;
+}
+
+.page {
+    width: 100%;
+    height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+#banner{
+  background-color: #45567b;
+  height: 50px;
+  
+}
+
+.navigation  ul{
+    min-width: 500px;
+    float: left;
+    left: 50%;
+    margin-left: -60px;
+    position: relative;
+
+
+}
+
+.navigation li {
+    display: inline;
+    margin-right: 1px;
+    color: white;
+    padding: 20px 20px;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    left: -50%;
+    padding-top: 10px;
+}
+
+.navigation li a {
+    color: white;
+    font-family: 'Biryani', sans-serif;
+    line-height: 1em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.navigation li a:hover, .navigation li a:active {
+    color: #58a0d3;
+}
+.figure{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+figcaption{
+    font-family: 'Biryani', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.infos{
+  
+  margin-top:5px;
+  margin-bottom:10px;
+  padding:50px;
+  width: 90%;
+  margin: auto;
+  display: flex;
+}
+
+.infos .infos-container {
+  
+  width: 50%;
+  text-align: left;
+  padding: 10px;
+  text-align: justify;
+  font-family: 'Biryani', sans-serif;
+
+}
+ .infos .logo-container {
+  width: 50%;
+  text-align: center;
+  padding-top: 50px;
+  
+}
+
+
+
+.text{
+  min-width: 100px;
+  font-family: 'Yrsa', serif;
+  text-align: justify;
+  position: relative;
+  padding-right: 150px;
+  margin-left: 60px;
+
+}
+
+
+.service{
+    font-family: 'Biwidth: 60%;ryani', sans-serif;
+    width: 90%;
+    margin: auto;
+}
+.main-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    font-family: 'Yrsa', serif;
+    width:90%;
+    margin: auto;
+    position: relative;
+
+}
+
+.main-container .Formation  {
+    width: 50%;
+    margin-left: 15px;
+    text-align: justify;
+
+}
+.Formation ul{
+   
+    position: relative;
+
+}
+
+.Formation li {
+   
+    
+    color: black;
+    
+    font-size: 20px;
+    
+    position: relative;
+    text-decoration: none;
+ 
+}
+
+.Formation li a {
+    color: black;
+      font-family: 'Yrsa', serif;
+    
+    line-height: 1em;
+    
+    text-decoration: none;
+    font-weight: bolder;
+  }
+
+.main-container .Conseils {
+    width: 50%;
+    margin-right: 20px;
+    text-align: justify;
+  }
+.savoirfaire{
+   font-family: 'Biryani', sans-serif;
+   width: 90%;
+   margin: auto;
+
+}
+.clients{
+   font-family: 'Biryani', sans-serif;
+   width: 90%;
+   margin: auto;
+
+}
+.main-container .expertise {
+    width: 50%;
+    margin-left: 15px;
+    text-align: justify;
+
+}
+.main-container .technologie {
+    width: 50%;
+    margin-right: 20px;
+    text-align: justify;
+  }
+
+h3{
+    color: #F29262;
+    font-family: 'Biryani', sans-serif;
+    font-weight: bolder;
+    position: relative;
+}
+h2{
+  font-family: 'Biryani', sans-serif;
+  position: relative;
+
+}
+.photo {
+    text-align: center;
+}
+
+
+footer{
+  line-height: 10px;
+  margin-top:5px;
+  margin-bottom:10px;
+  padding:50px;
+  background-color:#45567b;
+  display: flex;
+}
+
+footer .infos-container {
+  width: 30%;
+  
+  text-align: right;
+  padding: 10px;
+  color: white;
+}
+footer .logos-container {
+  width: 50%;
+  text-align: center;
+  padding-top: 50px;
+  
+}
+footer .map-container {
+  width: 40%;
+}
+
+
+footer a {
+  color: white;
+}
+img.displayed1 {
+    display: block;
+    margin:auto;
+}
+.rs a
+{
+float:right;
+padding:5px;
+
+}
